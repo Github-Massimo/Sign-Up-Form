@@ -43,7 +43,9 @@ table {
 	border-spacing: 0;
 }
 
-
+em {
+    font-style: italic;
+}
 /* Used css starts here */
 
 html, body {
@@ -77,11 +79,6 @@ html, body {
 
 }
 
-#right-side {
-    width: 45%;
-
-}
-
 #topLogo, #footer {
     position: absolute;
 }
@@ -107,6 +104,7 @@ html, body {
 #footer {
     bottom: 0;
     padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -125,3 +123,38 @@ html, body {
 
 }
 
+
+#right-side {
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10rem;
+    background-color: #F8F8F8;
+}
+
+#right-side > *{
+    padding-left: 4rem;
+}
+
+#forum-header {
+    top: 20%;
+    font-size: 1.25em;
+    margin-bottom: 3em;
+    margin-right: 8em;
+
+}
+
+#forum-header > p{
+    margin-bottom: 1.5em;
+}
+
+#sign-up-form {
+    background-color: white;
+}
+
+#sign-up-form header {
+    font-size: 1.25em;
+}
+
+button {
+    background-color: #596D48;
+}
